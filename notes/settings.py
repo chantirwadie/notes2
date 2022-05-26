@@ -26,10 +26,6 @@ SECRET_KEY = 'django-insecure-o1e&d8oo2zpg5h5-ma_391zw@oqj*%cg!8evluih+z2ra8r)t=
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
-
-# Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -68,6 +64,10 @@ CORS_ALLOW_HEADERS = [
     "x-requested-with",
     "refreshToken"
 ]
+
+# Application definition
+
+
 
 ROOT_URLCONF = 'notes.urls'
 
